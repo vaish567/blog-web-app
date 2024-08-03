@@ -57,6 +57,7 @@ function BlogList() {
                 description={item.description}
                 category={item.category}
                 key={index}
+                id={item.id}
               />
             );
           })}
